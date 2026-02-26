@@ -1,29 +1,77 @@
-## 📚 Library Management System — Streamlit App
+# 📚 Library Analytics & Recommendation System
+## 🤖 Interactive Book Management with Intelligent Recommendation Logic
 
-A simple and user-friendly **Library Management System** built using **Python** and **Streamlit** for managing books and transactions. This app lets users add, borrow, and return books through a clean pastel-themed interface.
-
----
-
-### 🌟 Features:
-- 🔐 User Login and Signup
-- ➕ Add new books to the library
-- 📥 Borrow and 📤 Return existing books
-- 📘 View all available and borrowed books
-- 🎨 Soft pastel styling with custom UI
+A full-stack Python application that combines book inventory management, user session handling, and a recommendation engine within an interactive Streamlit dashboard.
 
 ---
 
-### 📚 Sample Books:
-1. The Great Gatsby — *F. Scott Fitzgerald*  
-2. Pride and Prejudice — *Jane Austen*  
-3. The Catcher in the Rye — *J.D. Salinger*  
-4. The Hobbit — *J.R.R. Tolkien*  
-5. Brave New World — *Aldous Huxley*
+## 🚀 Key Capabilities
+
+- 👤 User session tracking
+- 📖 Borrow / Return system
+- 📊 Library collection analytics
+- 🧠 Genre-based recommendation logic
+- 🎯 Content filtering system
+- 🗃️ SQLite database integration
+- 🔁 Dynamic availability status updates
 
 ---
 
-### 🚀 How to Run Locally:
+## 🧠 System Architecture
+
+User Interaction  
+→ Streamlit Interface  
+→ Backend Logic  
+→ SQLite Database  
+→ Recommendation Engine  
+→ UI Rendering  
+
+---
+
+## 🤖 Recommendation Logic
+
+- Genre similarity matching
+- User borrowing pattern influence
+- Availability-aware filtering
+- Ranked display of related titles
+
+---
+
+## 🛠️ Technology Stack
+
+### 🧠 Backend Logic
+- Python
+- SQLite
+- Pandas
+
+### 🖥️ Frontend
+- Streamlit
+
+---
+
+
+## 💻 Run Locally
+
 ```bash
-git clone https://github.com/yourusername/library-management-system.git
-cd library-management-system
-streamlit run library_app.py```
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 💡 Resume Impact
+
+- Developed interactive CRUD-based application  
+- Designed simple but functional recommendation engine  
+- Integrated structured database backend  
+- Built session-based UI logic system  
+- Implemented availability state management  
+
+---
+
+## 🔮 Future Improvements
+
+- Collaborative filtering algorithm  
+- User ratings & review system  
+- REST API backend  
+- Admin analytics dashboard
