@@ -57,18 +57,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
-
-## 💡 Resume Impact
-
-- Developed interactive CRUD-based application  
-- Designed simple but functional recommendation engine  
-- Integrated structured database backend  
-- Built session-based UI logic system  
-- Implemented availability state management  
-
----
-
 ## 🔮 Future Improvements
 
 - Collaborative filtering algorithm  
